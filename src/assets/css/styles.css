@@ -1,0 +1,533 @@
+/* Global config */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap");
+
+h1 {
+  font-size: 68px;
+  color: #ccd6f6;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 26px;
+  color: #ccd6f6;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/* Global config */
+
+
+/* Intro Section */
+
+
+.intro {
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+.hello {
+  font-family: "Fira Code", monospace;
+  color: #03e9f4;
+}
+
+.desc-intro {
+  padding-right: 550px;
+  font-size: 17px;
+}
+
+.glow {
+  position: relative;
+  width: 170px;
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #03e9f4;
+  font-weight: 300;
+  font-family: "Fira Code", monospace;
+  border: 1px solid#03e9f4;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.7s;
+  text-decoration: none;
+}
+
+.glow a {
+  text-decoration: none;
+  color: #ebf0ff;
+}
+
+.glow:hover {
+  background: #03e9f4;
+  box-shadow: 0 0px 15px 0 #03e9f4, 0 5px 20px 0 #03e9f4;
+  font-weight: 500;
+}
+
+/* Intro Section */
+
+/* About Section */
+
+.about {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  /* padding-left: 50px; */
+}
+
+.desc {
+  padding-left: 50px;
+}
+
+
+.title-about {
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.bio {
+  /* position: relative; */
+  margin-top: 35px;
+  text-align: center;
+  width: 55%;
+  /* background-image: url('~@/assets/bio-bw.png'); */
+  /* background-repeat: no-repeat; */
+  border-radius: 10px;
+  z-index: 1;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 35px;
+  left: 24%;
+  width: 52%;
+  height: 396px;
+  background-color: #28f1c2;
+  opacity: 0.5;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  left: 155px;
+  border: 1px solid #03e9f4;
+  height: 396px;
+  width: 55%;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.overlay:hover {
+  opacity: 0;
+}
+
+.vl {
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 130px;
+  border-top: 1px solid #03e9f4;
+  width: 40%;
+}
+
+.text-about {
+  padding-bottom: 5px;
+  line-height: 1.5em;
+}
+
+.item {
+  margin-left: -40px;
+}
+
+.item li {
+  padding: 5px 0;
+  font-size: 14px;
+  font-family: "Fira Code", monospace;
+  list-style: none;
+}
+
+.list-icon {
+  color: #03e9f4;
+  margin-right: 10px !important;
+}
+
+/* Portofolio section */
+
+.portofolio {
+  padding-left: 50px;
+}
+
+.vl-p {
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 250px;
+  border-top: 1px solid #03e9f4;
+  width: 23%;
+}
+
+.porto-title {
+  font-weight: 600;
+}
+
+.porto {
+  margin-bottom: 50px;
+}
+
+.hero {
+  margin-top: 40px;
+  width: 650px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.overlay-p {
+  position: absolute;
+  top: 39px;
+  left: 15px;
+  width: 650px;
+  height: 401px;
+  background-color: #28f1c2;
+  opacity: 0.5;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.overlay-p:hover {
+  opacity: 0;
+}
+
+.desc-porto {
+  padding-top: 100px;
+}
+
+.featured {
+  font-family: "Fira Code", monospace;
+  color: #03e9f4;
+  font-size: 16px;
+  float: right;
+}
+
+.name-porto {
+  margin-top: -10px;
+  float: right;
+}
+
+.block-card {
+  width: 490px;
+  background-color: #172a45;
+  margin-top: 90px;
+  margin-left: -150px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.stack {
+  margin-top: 15px;
+  float: right;
+  font-family: "Fira Code", monospace;
+  color: #03e9f4;
+  font-size: 15px;
+
+}
+
+.stack li {
+  display: inline-block;
+  padding: 0 8px;
+}
+
+.item-porto li {
+  list-style: none;
+}
+
+.porto-icon {
+  font-size: 22px;
+  float: right;
+  margin: 0 15px;
+  cursor: pointer;
+  color: #ccd6f6;
+}
+
+.porto-icon:hover {
+  color: #03e9f4;
+}
+
+/* Portofolio section */
+
+/* Projects section */
+
+.project-section {
+  margin-top: 200px;
+}
+
+.project-title {
+  font-weight: 600;
+}
+
+.subtitle-project {
+  font-family: "Fira Code", monospace;
+  color: #03e9f4;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.vl1-project {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  border-top: 1px solid #03e9f4;
+  width: 35%;
+}
+
+.vl2-project {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  border-bottom: 1px solid #03e9f4;
+  width: 35%;
+}
+
+.item-project {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 7px 7px;
+  width: 320px;
+  height: 300px;
+  background-color: #172a45;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+.project-icon {
+  margin-left: -25px;
+  font-size: 35px;
+  text-align: center;
+  color: #03e9f4;
+}
+
+.title-project {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ccd6f6;
+  text-align: left;
+}
+
+.desc-project {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  text-align: left;
+}
+
+.stack-project {
+
+  font-family: "Fira Code", monospace;
+  color: #03e9f4;
+  font-size: 13px;
+  text-align: center;
+  margin-left: -40px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.stack-project li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.icon-project {
+  margin-left: -70px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.icon-project li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  padding: 0 10px;
+  cursor: pointer;
+
+}
+
+.icon-pro {
+  font-size: 25px;
+  color: #03e9f4;
+}
+
+.icon-pro:hover {
+  color: #ccd6f6;
+}
+
+/* Projects section */
+
+/* Contact section */
+
+.contact {
+  margin-top: 200px;
+  margin-bottom: 300px;
+}
+
+.title-contact {
+  text-align: center;
+}
+
+.desc-contact {
+  text-align: center;
+  padding: 20px 250px;
+  font-size: 18px;
+}
+
+
+.glow-contact {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 170px;
+  text-align: center;
+  padding: 15px 20px;
+  /* margin-top: 40px; */
+  font-size: 16px;
+  color: #03e9f4;
+  font-weight: 300;
+  font-family: "Fira Code", monospace;
+  border: 1px solid#03e9f4;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.glow-contact:hover {
+  background: rgba(3, 232, 244, 0.2);
+}
+
+/* Contact section */
+
+/* Footer */
+.footer {
+  /* margin-top: 100px; */
+  margin-bottom: 20px;
+  font-family: "Fira Code", monospace;
+  color: #989dad;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer:hover {
+  color: #03e9f4;
+}
+
+link {
+  text-decoration: none;
+}
+
+/* Footer */
+
+/* Social Link */
+
+/* Left social link */
+.social-l {
+  position: fixed;
+  top: 55%;
+  list-style: none;
+}
+
+.social-l li {
+  padding: 10px 0;
+}
+
+.social-link {
+  font-size: 22px;
+  color: #989dad;
+}
+
+.social-link:hover {
+  color: #03e9f4;
+}
+
+.vl-sl {
+  position: fixed;
+  top: 75%;
+  left: 50px;
+  /* margin-top: 18px;
+  margin-left: 130px; */
+  border-right: 2px solid #989dad;
+  height: 30%;
+
+}
+
+/* Right social link */
+.vl-sr {
+  position: fixed;
+  top: 75%;
+  right: 40px;
+  border-right: 2px solid #989dad;
+  height: 30%;
+}
+
+.v-text {
+  position: fixed;
+  top: 45%;
+  right: -85px;
+  font-family: "Fira Code", monospace;
+  text-decoration: none;
+  color: #ccd6f6;
+  font-size: 14px;
+  letter-spacing: 3px;
+  transition: 0.2s;
+}
+
+.v-text:hover {
+  color: #03e9f4;
+  margin-top: 3px;
+  text-decoration: none;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+
+  /* IE */
+  -ms-transform: rotate(90deg);
+
+  /* Opera */
+  -o-transform: rotate(90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+/* Social Link */
