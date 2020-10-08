@@ -55,7 +55,7 @@
             style="animation-delay: 3.9s; animation-duration: 800ms"
             class="button"
           >
-            <a href="../static/RESUME.pdf" target="_blank">Resume</a>
+            <a href="https://docs.google.com/viewer?srcid=1QxE-6_yKKtY1nR_oCa8viGIoOWT27xGM&pid=explorer&efh=false&a=v&chrome=false&embedded=true"" target="_blank">Resume</a>
           </li>
         </transition>
       </ul>
