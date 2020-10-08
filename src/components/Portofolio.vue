@@ -40,7 +40,7 @@
                     </a>
                   </li>
                   <li>
-                    <a :href="linkTo.github">
+                    <a :href="linkTo.chatApp">
                       <font-awesome-icon
                         :icon="['fab', 'github']"
                         class="porto-icon"
@@ -89,7 +89,7 @@
                     </a>
                   </li>
                   <li>
-                    <a :href="linkTo.github">
+                    <a :href="linkTo.stockTrader">
                       <font-awesome-icon
                         :icon="['fab', 'github']"
                         class="porto-icon"
@@ -138,7 +138,7 @@
                     </a>
                   </li>
                   <li>
-                    <a :href="linkTo.github">
+                    <a :href="linkTo.mySkillset">
                       <font-awesome-icon
                         :icon="['fab', 'github']"
                         class="porto-icon"
@@ -160,8 +160,10 @@ export default {
   data() {
     return {
       linkTo: {
-        github: "http://www.github.com/fjrpambudhi74",
-        demo: "https://fjrpambudhi74.github.io/myportofolio/",
+        chatApp: "https://github.com/fjrpambudhi74/vue_chat_app",
+        stockTrader: "https://github.com/fjrpambudhi74/vue_stock_trader",
+        mySkillset: "https://github.com/fjrpambudhi74/vue-skillset",
+        demo: "https://github.com/fjrpambudhi74/",
       },
     };
   },

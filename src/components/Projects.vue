@@ -33,7 +33,7 @@
           </ul>
           <ul class="icon-project">
             <li>
-              <a :href="linkTo.github">
+              <a :href="linkTo.kp">
                 <font-awesome-icon :icon="['fab', 'github']" class="icon-pro" />
               </a>
             </li>
@@ -64,12 +64,12 @@
           </ul>
           <ul class="icon-project">
             <li>
-              <a :href="linkTo.github">
+              <a :href="linkTo.weddingku">
                 <font-awesome-icon :icon="['fab', 'github']" class="icon-pro" />
               </a>
             </li>
             <li>
-              <a :href="linkTo.github">
+              <a :href="linkTo.demo">
                 <font-awesome-icon
                   :icon="['fas', 'external-link-alt']"
                   class="icon-pro"
@@ -100,12 +100,12 @@
           </ul>
           <ul class="icon-project">
             <li>
-              <a :href="linkTo.github">
+              <a :href="linkTo.game">
                 <font-awesome-icon :icon="['fab', 'github']" class="icon-pro" />
               </a>
             </li>
             <li>
-              <a :href="linkTo.github">
+              <a :href="linkTo.demo">
                 <font-awesome-icon
                   :icon="['fas', 'external-link-alt']"
                   class="icon-pro"
@@ -131,12 +131,12 @@
           </ul>
           <ul class="icon-project">
             <li>
-              <a :href="linkTo.github">
+              <a :href="linkTo.v1">
                 <font-awesome-icon :icon="['fab', 'github']" class="icon-pro" />
               </a>
             </li>
             <li>
-              <a :href="linkTo.github">
+              <a :href="linkTo.demoV1">
                 <font-awesome-icon
                   :icon="['fas', 'external-link-alt']"
                   class="icon-pro"
@@ -155,8 +155,12 @@ export default {
   data() {
     return {
       linkTo: {
-        github: "http://www.github.com/fjrpambudhi74",
-        demo: "https://fjrpambudhi74.github.io/myportofolio/",
+        demo: "http://www.github.com/fjrpambudhi74",
+        kp: "https://github.com/fjrpambudhi74/21cleanshoes",
+        weddingku: "https://github.com/fjrpambudhi74/weddingku",
+        game: "https://github.com/fjrpambudhi74/vue_simple_game",
+        v1: "https://github.com/fjrpambudhi74/portofolio_v1",
+        demoV1: "https://fjrpambudhi74.github.io/portofolio_v1/",
       },
     };
   },
