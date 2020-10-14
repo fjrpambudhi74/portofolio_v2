@@ -30,6 +30,135 @@ p {
 /* Global config */
 
 
+/* Navbar */
+
+.navbar-toggler {
+  position: absolute;
+  right: 5%;
+  /* left: 50%; */
+}
+
+.show-mobile {
+  display: none;
+}
+
+
+.button {
+  position: relative;
+  width: 100px;
+  text-align: center;
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Fira Code", monospace;
+  border: 1px solid#03e9f4;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.button a {
+  text-decoration: none;
+  color: #03e9f4;
+}
+
+.button:hover {
+  background: rgba(3, 232, 244, 0.2);
+}
+
+.navbar {
+  height: 90px;
+  width: 100vw;
+  /* background: #05081f; */
+  background: rgba(5, 8, 31, 0.95);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: 0.1s all ease-out;
+  z-index: 9999;
+  /* box-shadow: 0 10px 30px -10px #070916; */
+}
+
+.nav-link {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  font-family: "Fira Code", monospace;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #64ffda;
+  transition: width 0.3s;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+  color: #64ffda;
+}
+
+.bg-mobile {
+  background: rgba(5, 8, 31, 0.95);
+}
+
+.nav-mb {
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.nav-item-mb a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  font-family: "Fira Code", monospace;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+
+a:hover {
+  color: #64ffda;
+}
+
+.logo img {
+  width: 175px;
+  vertical-align: middle;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.navbar.hidden-navbar {
+  box-shadow: none;
+  transform: translate3d(0, -100%, 0);
+  transition: 0.3s;
+}
+
+/* Navbar */
+
+
 /* Intro Section */
 
 
@@ -530,4 +659,379 @@ link {
 
 }
 
+
+
 /* Social Link */
+
+/* Media Query */
+
+@media(max-width: 480px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .intro {
+    margin-top: 120px;
+    margin-left: 20px;
+  }
+
+  .desc {
+    padding-left: 25px;
+  }
+
+  .desc-intro {
+    padding-right: 0;
+    font-size: 17px;
+  }
+
+  .vl {
+
+    margin-top: 13px;
+    margin-left: 100px;
+    width: 30%;
+  }
+
+  .portofolio {
+    padding-left: 20px;
+  }
+
+  .vl-p {
+    margin-top: 13px;
+    margin-left: 190px;
+  }
+
+  .desc-porto {
+    padding-top: 20px;
+  }
+
+  .featured {
+    font-size: 16px;
+    float: left;
+  }
+
+  .name-porto {
+    margin-top: -10px;
+    float: left;
+  }
+
+  .block-card {
+    width: 350px !important;
+    margin-top: 90px;
+    margin-left: 0;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+  }
+
+  .stack {
+    margin-top: 15px;
+    float: left;
+    font-family: "Fira Code", monospace;
+    color: #03e9f4;
+    font-size: 15px;
+    margin-left: -40px;
+
+  }
+
+  .item-porto {
+    margin-left: -45px;
+  }
+
+  .porto-icon {
+    float: left;
+  }
+
+  .item-project {
+    margin: 7px 7px;
+    width: 250px;
+    height: 330px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 5px;
+
+  }
+
+  .vl1-project {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    border-top: 1px solid #03e9f4;
+    width: 20%;
+  }
+
+  .vl2-project {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    border-bottom: 1px solid #03e9f4;
+    width: 20%;
+  }
+
+  .desc-contact {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+  }
+
+  .footer {
+    margin-bottom: 20px;
+    font-family: "Fira Code", monospace;
+    color: #989dad;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+
+
+
+
+}
+
+@media (max-width: 768px) {
+  .show-mobile {
+    display: block;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  .intro {
+    margin-top: 120px;
+    margin-left: 20px;
+  }
+
+  .desc {
+    padding-left: 25px;
+  }
+
+  .desc-intro {
+    padding-right: 0;
+
+  }
+
+  .portofolio {
+    padding-left: 20px;
+  }
+
+  .desc-porto {
+    padding-top: 20px;
+  }
+
+  .featured {
+    font-size: 16px;
+    float: left;
+  }
+
+  .name-porto {
+    margin-top: 25px;
+    margin-left: -160px;
+    float: left;
+  }
+
+  .block-card {
+    width: 450px;
+    margin-top: 90px;
+    margin-left: 0;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+  }
+
+  .stack {
+    margin-top: 15px;
+    float: left;
+    font-family: "Fira Code", monospace;
+    color: #03e9f4;
+    font-size: 15px;
+    margin-left: -40px;
+
+  }
+
+  .item-porto {
+    margin-top: 15px;
+    margin-left: 0;
+
+  }
+
+  .porto-icon {
+    float: left;
+  }
+
+  .item-project {
+    margin: 7px 7px;
+    width: 250px;
+    height: 330px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 5px;
+
+  }
+
+  .desc-contact {
+    text-align: center;
+    padding: 20px 70px;
+    font-size: 18px;
+  }
+
+}
+
+
+@media (max-width: 992px) {
+  .show-mobile {
+    display: block;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  .intro {
+    margin-top: 120px;
+    margin-left: 20px;
+  }
+
+  .desc {
+    padding-left: 25px;
+  }
+
+  .desc-intro {
+    padding-right: 0;
+
+  }
+
+  .portofolio {
+    padding-left: 20px;
+  }
+
+  .desc-porto {
+    padding-top: 20px;
+  }
+
+  .featured {
+    font-size: 16px;
+    float: left;
+  }
+
+  .name-porto {
+    margin-top: 25px;
+    margin-left: -160px;
+    float: left;
+  }
+
+  .block-card {
+    width: 450px;
+    margin-top: 90px;
+    margin-left: 0;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+  }
+
+  .stack {
+    margin-top: 15px;
+    float: left;
+    font-family: "Fira Code", monospace;
+    color: #03e9f4;
+    font-size: 15px;
+    margin-left: -40px;
+
+  }
+
+  .item-porto {
+    margin-top: 15px;
+    margin-left: 0;
+
+  }
+
+  .porto-icon {
+    float: left;
+  }
+
+  .item-project {
+    margin: 7px 7px;
+    width: 250px;
+    height: 330px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 5px;
+
+  }
+
+  .desc-contact {
+    text-align: center;
+    padding: 20px 70px;
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .overlay {
+    height: 330px;
+  }
+
+  .box {
+    position: absolute;
+    top: 0;
+    left: 155px;
+    height: 330px;
+    width: 55%;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+  .overlay {
+    height: 330px;
+  }
+
+  .box {
+    position: absolute;
+    top: 0;
+    left: 155px;
+    height: 330px;
+    width: 55%;
+  }
+
+}
+
+
+
+/* Media Query */

@@ -9,11 +9,15 @@
           </h3>
           <div class="porto">
             <div class="row">
-              <div data-aos="fade-in" data-aos-duration="1500" class="col-md-8">
+              <div
+                data-aos="fade-in"
+                data-aos-duration="1500"
+                class="col-md-12 col-lg-8 hide-mobile"
+              >
                 <div class="overlay-p"></div>
                 <img class="hero" src="@/assets/porto.png" />
               </div>
-              <div class="col-md-4 desc-porto">
+              <div class="col-md-12 col-lg-4 desc-porto">
                 <p data-aos="fade-left" class="featured">Featured Project</p>
                 <h3 data-aos="fade-left" class="name-porto">
                   Realtime Chat App
@@ -32,7 +36,7 @@
                 </ul>
                 <ul data-aos="fade-left" class="item-porto">
                   <li>
-                    <a :href="linkTo.demo">
+                    <a :href="demo.chat">
                       <font-awesome-icon
                         :icon="['fas', 'external-link-alt']"
                         class="porto-icon"
@@ -57,11 +61,15 @@
         <div>
           <div class="porto">
             <div class="row">
-              <div data-aos="fade-in" data-aos-duration="1500" class="col-md-8">
+              <div
+                data-aos="fade-in"
+                data-aos-duration="1500"
+                class="col-md-12 col-lg-8 hide-mobile"
+              >
                 <div class="overlay-p"></div>
                 <img class="hero" src="@/assets/porto.png" />
               </div>
-              <div class="col-md-4 desc-porto">
+              <div class="col-md-12 col-lg-4 desc-porto">
                 <p data-aos="fade-left" class="featured">Featured Project</p>
                 <h3 data-aos="fade-left" class="name-porto">
                   Stock Trader App
@@ -81,7 +89,7 @@
                 </ul>
                 <ul data-aos="fade-left" class="item-porto">
                   <li>
-                    <a :href="linkTo.demo">
+                    <a :href="demo.stock">
                       <font-awesome-icon
                         :icon="['fas', 'external-link-alt']"
                         class="porto-icon"
@@ -106,11 +114,15 @@
         <div>
           <div class="porto">
             <div class="row">
-              <div data-aos="fade-in" data-aos-duration="1500" class="col-md-8">
+              <div
+                data-aos="fade-in"
+                data-aos-duration="1500"
+                class="col-md-12 col-lg-8 hide-mobile"
+              >
                 <div class="overlay-p"></div>
                 <img class="hero" src="@/assets/porto.png" />
               </div>
-              <div class="col-md-4 desc-porto">
+              <div class="col-md-12 col-lg-4 desc-porto">
                 <p data-aos="fade-left" class="featured">Featured Project</p>
                 <h3 data-aos="fade-left" class="name-porto">
                   My Skillset Vue App
@@ -130,7 +142,7 @@
                 </ul>
                 <ul data-aos="fade-left" class="item-porto">
                   <li>
-                    <a :href="linkTo.demo">
+                    <a :href="demo.skillset">
                       <font-awesome-icon
                         :icon="['fas', 'external-link-alt']"
                         class="porto-icon"
@@ -163,7 +175,11 @@ export default {
         chatApp: "https://github.com/fjrpambudhi74/vue_chat_app",
         stockTrader: "https://github.com/fjrpambudhi74/vue_stock_trader",
         mySkillset: "https://github.com/fjrpambudhi74/vue-skillset",
-        demo: "https://github.com/fjrpambudhi74/",
+      },
+      demo: {
+        chat: "https://vue-chat-app-8e549.firebaseapp.com/",
+        stock: "https://vue-stock-app.herokuapp.com/",
+        skillset: "https://fjrpambudhi-skillset.netlify.app/",
       },
     };
   },

@@ -1,7 +1,7 @@
 <template>
   <div class="container about" id="about">
     <div class="row">
-      <div class="col-md-6 desc">
+      <div class="col-md-12 col-lg-6 desc">
         <div data-aos="fade-left" class="vl"></div>
         <h3 data-aos="zoom-in" data-aos-duration="500" class="title-about">
           About Me
@@ -27,7 +27,7 @@
         </div>
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12 col-lg-6">
             <ul class="item">
               <li
                 data-aos="fade-up"
@@ -59,7 +59,11 @@
           </div>
         </div>
       </div>
-      <div data-aos="fade-in" data-aos-duration="1500" class="col-md-6 bio">
+      <div
+        data-aos="fade-in"
+        data-aos-duration="1500"
+        class="col-md-6 bio hide-mobile"
+      >
         <div class="overlay"></div>
         <div class="box"></div>
         <img class="bio" src="@/assets/bio-bw.png" />

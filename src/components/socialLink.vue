@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="left-social-link">
+    <div class="left-social-link hide-mobile">
       <transition appear mode="in-out" enter-active-class="animated slideInUp">
         <div
           class="vl-sl"
@@ -35,7 +35,7 @@
       </ul>
     </div>
 
-    <div class="right-social-link">
+    <div class="right-social-link hide-mobile">
       <transition appear mode="in-out" enter-active-class="animated slideInUp">
         <div
           class="vl-sr"

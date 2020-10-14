@@ -38,7 +38,7 @@
               </a>
             </li>
             <li>
-              <a :href="linkTo.demo">
+              <a :href="demo.nope">
                 <font-awesome-icon
                   :icon="['fas', 'external-link-alt']"
                   class="icon-pro"
@@ -69,7 +69,7 @@
               </a>
             </li>
             <li>
-              <a :href="linkTo.demo">
+              <a :href="demo.nope">
                 <font-awesome-icon
                   :icon="['fas', 'external-link-alt']"
                   class="icon-pro"
@@ -105,7 +105,7 @@
               </a>
             </li>
             <li>
-              <a :href="linkTo.demo">
+              <a :href="demo.simpleGame">
                 <font-awesome-icon
                   :icon="['fas', 'external-link-alt']"
                   class="icon-pro"
@@ -136,7 +136,7 @@
               </a>
             </li>
             <li>
-              <a :href="linkTo.demoV1">
+              <a :href="demo.portov1">
                 <font-awesome-icon
                   :icon="['fas', 'external-link-alt']"
                   class="icon-pro"
@@ -155,12 +155,15 @@ export default {
   data() {
     return {
       linkTo: {
-        demo: "http://www.github.com/fjrpambudhi74",
         kp: "https://github.com/fjrpambudhi74/21cleanshoes",
         weddingku: "https://github.com/fjrpambudhi74/weddingku",
         game: "https://github.com/fjrpambudhi74/vue_simple_game",
         v1: "https://github.com/fjrpambudhi74/portofolio_v1",
-        demoV1: "https://fjrpambudhi74.github.io/portofolio_v1/",
+      },
+      demo: {
+        nope: "http://www.github.com/fjrpambudhi74",
+        portov1: "https://fjrpambudhi74.github.io/portofolio_v1/",
+        simpleGame: "http://monster-slayer-demo.herokuapp.com/",
       },
     };
   },
