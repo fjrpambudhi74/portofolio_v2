@@ -485,6 +485,7 @@ a:hover {
   list-style: none;
   text-decoration: none;
   text-align: center;
+  padding: 0 5px;
 }
 
 .icon-project {
