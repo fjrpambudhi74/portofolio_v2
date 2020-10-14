@@ -42,9 +42,9 @@
             class="desc-intro mt-4"
             style="animation-delay: 3.3s; animation-duration: 800ms"
           >
-            I'm a Web Developer based in Serpong, Tangerang Selatan specializing
-            in building exceptional websites, applications, and everything in
-            between.
+            I'm a Software Engineer based in Serpong, Tangerang Selatan
+            specializing in building exceptional websites, applications, and
+            everything in between.
           </p>
         </transition>
 

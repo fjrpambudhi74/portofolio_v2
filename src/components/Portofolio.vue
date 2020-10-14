@@ -79,7 +79,7 @@
                     Simple Stock Trader App using Vuex to make it easy manage
                     logic data in Javascript. I built this project certainly not
                     like other trading applications but I just tried to
-                    implement the logic
+                    implement the logic.
                   </p>
                 </div>
                 <ul data-aos="fade-left" class="stack">
@@ -132,7 +132,7 @@
                     This is my first project built with Vue Js. In this case i'm
                     presents my own skillset and in additional this project can
                     add & delete the skills like todo list app. and also
-                    calculate number of skills
+                    calculate number of skills.
                   </p>
                 </div>
                 <ul data-aos="fade-left" class="stack">

@@ -8,7 +8,7 @@
         </h3>
         <div data-aos="fade-right" data-aos-duration="1000">
           <p class="text-about">
-            Hello! I'm Fajar Pambudhi, a software engineer based in Serpong,
+            Hello! I'm Fajar Pambudhi, a Software Engineer based in Serpong,
             Tangerang Selatan.
           </p>
           <p class="text-about">

@@ -54,7 +54,7 @@
           <h5 class="title-project">Weddingku</h5>
           <p class="desc-project">
             This is my project wedding website for coursework. And this project
-            using framework Codeigniter and Database
+            using framework Codeigniter and Database.
           </p>
           <ul class="stack-project">
             <li>PHP</li>
@@ -91,7 +91,7 @@
           <h5 class="title-project">Monster Slayer</h5>
           <p class="desc-project">
             This is simple logic game. Doing something fun by making simple game
-            with Vue JS
+            with Vue JS.
           </p>
           <ul class="stack-project">
             <li>Vue JS</li>
