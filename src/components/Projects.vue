@@ -33,7 +33,7 @@
           </ul>
           <ul class="icon-project">
             <li>
-              <a :href="linkTo.kp">
+              <a :href="linkTo.repoKP">
                 <font-awesome-icon :icon="['fab', 'github']" class="icon-pro" />
               </a>
             </li>
@@ -64,7 +64,7 @@
           </ul>
           <ul class="icon-project">
             <li>
-              <a :href="linkTo.weddingku">
+              <a :href="linkTo.repoWeddingku">
                 <font-awesome-icon :icon="['fab', 'github']" class="icon-pro" />
               </a>
             </li>
@@ -80,6 +80,7 @@
         </div>
       </div>
     </div>
+
     <div
       data-aos="fade-in"
       data-aos-duration="2000"
@@ -100,12 +101,12 @@
           </ul>
           <ul class="icon-project">
             <li>
-              <a :href="linkTo.game">
+              <a :href="linkTo.repoGame">
                 <font-awesome-icon :icon="['fab', 'github']" class="icon-pro" />
               </a>
             </li>
             <li>
-              <a :href="demo.simpleGame">
+              <a :href="demo.gameApp">
                 <font-awesome-icon
                   :icon="['fas', 'external-link-alt']"
                   class="icon-pro"
@@ -131,12 +132,77 @@
           </ul>
           <ul class="icon-project">
             <li>
-              <a :href="linkTo.v1">
+              <a :href="linkTo.repoV1">
                 <font-awesome-icon :icon="['fab', 'github']" class="icon-pro" />
               </a>
             </li>
             <li>
-              <a :href="demo.portov1">
+              <a :href="demo.v1App">
+                <font-awesome-icon
+                  :icon="['fas', 'external-link-alt']"
+                  class="icon-pro"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      data-aos="fade-in"
+      data-aos-duration="2000"
+      class="row justify-content-center"
+    >
+      <div class="d-flex">
+        <div class="item-project">
+          <font-awesome-icon :icon="['far', 'folder']" class="project-icon" />
+          <h5 class="title-project">Vuetify Calendar</h5>
+          <p class="desc-project">
+            The Vuetify calendar demo utilizes general Vue.js + Firebase
+            functions to enable creating, updating, and deleting
+          </p>
+          <ul class="stack-project">
+            <li>Vue JS</li>
+            <li>Vuetify</li>
+            <li>Firestore</li>
+          </ul>
+          <ul class="icon-project">
+            <li>
+              <a :href="linkTo.repoCalendar">
+                <font-awesome-icon :icon="['fab', 'github']" class="icon-pro" />
+              </a>
+            </li>
+            <li>
+              <a :href="demo.calApp">
+                <font-awesome-icon
+                  :icon="['fas', 'external-link-alt']"
+                  class="icon-pro"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex">
+        <div class="item-project">
+          <font-awesome-icon :icon="['far', 'folder']" class="project-icon" />
+          <h5 class="title-project">My Skillset App</h5>
+          <p class="desc-project">
+            This is My Skill Set app for my first Vue js app and in addition
+            using Vuex and Vue Router. This case like the Todo List App.
+          </p>
+          <ul class="stack-project">
+            <li>Vue JS</li>
+            <li>Vercel</li>
+          </ul>
+          <ul class="icon-project">
+            <li>
+              <a :href="linkTo.repoSkillset">
+                <font-awesome-icon :icon="['fab', 'github']" class="icon-pro" />
+              </a>
+            </li>
+            <li>
+              <a :href="demo.skilsetApp">
                 <font-awesome-icon
                   :icon="['fas', 'external-link-alt']"
                   class="icon-pro"
@@ -155,15 +221,19 @@ export default {
   data() {
     return {
       linkTo: {
-        kp: "https://github.com/fjrpambudhi74/21cleanshoes",
-        weddingku: "https://github.com/fjrpambudhi74/weddingku",
-        game: "https://github.com/fjrpambudhi74/vue_simple_game",
-        v1: "https://github.com/fjrpambudhi74/portofolio_v1",
+        repoKP: "https://github.com/fjrpambudhi74/21cleanshoes",
+        repoWeddingku: "https://github.com/fjrpambudhi74/weddingku",
+        repoGame: "https://github.com/fjrpambudhi74/vue_simple_game",
+        repoV1: "https://github.com/fjrpambudhi74/portofolio_v1",
+        repoCalendar: "https://github.com/fjrpambudhi74/vuetify-calendar",
+        repoSkillset: "https://github.com/fjrpambudhi74/vue-skillset",
       },
       demo: {
         nope: "http://www.github.com/fjrpambudhi74",
-        portov1: "https://fjrpambudhi74.github.io/portofolio_v1/",
-        simpleGame: "http://monster-slayer-demo.herokuapp.com/",
+        v1App: "https://fjrpambudhi74.github.io/portofolio_v1/",
+        gameApp: "http://monster-slayer-demo.herokuapp.com/",
+        calApp: "https://vuetify-calendar-909d9.web.app/",
+        skilsetApp: "https://fjrpambudhi-skillset.netlify.app/",
       },
     };
   },

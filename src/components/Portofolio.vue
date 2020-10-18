@@ -9,13 +9,72 @@
           </h3>
           <div class="porto">
             <div class="row">
+              <div class="col-md-12">
+                <div>
+                  <div class="porto">
+                    <div class="row">
+                      <!-- Corona App -->
+                      <div
+                        data-aos="fade-in"
+                        data-aos-duration="1500"
+                        class="col-md-12 col-lg-8 hide-mobile"
+                      >
+                        <div class="overlay-p"></div>
+                        <img class="hero" src="@/assets/porto-1.png" />
+                      </div>
+                      <div class="col-md-12 col-lg-4 desc-porto">
+                        <p data-aos="fade-left" class="featured">
+                          Featured Project
+                        </p>
+                        <h3 data-aos="fade-left" class="name-porto">
+                          Corona Realtime Tracker
+                        </h3>
+                        <div data-aos="fade-left" class="block-card">
+                          <p>
+                            Corona Real-Time Tracker and this app contain simple
+                            data monitoring for Covid19 using Vue JS, Vuetify,
+                            and this Data API provided by Mathdroid.
+                          </p>
+                        </div>
+                        <ul data-aos="fade-left" class="stack">
+                          <li>VueJS</li>
+                          <li>Vuetify</li>
+                          <li>Axios</li>
+                          <li>Mathdroid</li>
+                        </ul>
+                        <ul data-aos="fade-left" class="item-porto">
+                          <li>
+                            <a :href="demo.coronaApp">
+                              <font-awesome-icon
+                                :icon="['fas', 'external-link-alt']"
+                                class="porto-icon"
+                              />
+                            </a>
+                          </li>
+                          <li>
+                            <a :href="linkTo.repoCovid">
+                              <font-awesome-icon
+                                :icon="['fab', 'github']"
+                                class="porto-icon"
+                              />
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Corona App -->
+
+              <!-- Chat App -->
               <div
                 data-aos="fade-in"
                 data-aos-duration="1500"
                 class="col-md-12 col-lg-8 hide-mobile"
               >
                 <div class="overlay-p"></div>
-                <img class="hero" src="@/assets/porto.png" />
+                <img class="hero" src="@/assets/porto-2.png" />
               </div>
               <div class="col-md-12 col-lg-4 desc-porto">
                 <p data-aos="fade-left" class="featured">Featured Project</p>
@@ -36,7 +95,7 @@
                 </ul>
                 <ul data-aos="fade-left" class="item-porto">
                   <li>
-                    <a :href="demo.chat">
+                    <a :href="demo.chatApp">
                       <font-awesome-icon
                         :icon="['fas', 'external-link-alt']"
                         class="porto-icon"
@@ -44,7 +103,7 @@
                     </a>
                   </li>
                   <li>
-                    <a :href="linkTo.chatApp">
+                    <a :href="linkTo.repoChat">
                       <font-awesome-icon
                         :icon="['fab', 'github']"
                         class="porto-icon"
@@ -57,6 +116,9 @@
           </div>
         </div>
       </div>
+      <!-- Chat App -->
+
+      <!-- Stock Trader App -->
       <div class="col-md-12">
         <div>
           <div class="porto">
@@ -67,7 +129,7 @@
                 class="col-md-12 col-lg-8 hide-mobile"
               >
                 <div class="overlay-p"></div>
-                <img class="hero" src="@/assets/porto.png" />
+                <img class="hero" src="@/assets/porto-3.png" />
               </div>
               <div class="col-md-12 col-lg-4 desc-porto">
                 <p data-aos="fade-left" class="featured">Featured Project</p>
@@ -89,7 +151,7 @@
                 </ul>
                 <ul data-aos="fade-left" class="item-porto">
                   <li>
-                    <a :href="demo.stock">
+                    <a :href="demo.stockApp">
                       <font-awesome-icon
                         :icon="['fas', 'external-link-alt']"
                         class="porto-icon"
@@ -97,7 +159,7 @@
                     </a>
                   </li>
                   <li>
-                    <a :href="linkTo.stockTrader">
+                    <a :href="linkTo.repoStock">
                       <font-awesome-icon
                         :icon="['fab', 'github']"
                         class="porto-icon"
@@ -110,59 +172,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-12">
-        <div>
-          <div class="porto">
-            <div class="row">
-              <div
-                data-aos="fade-in"
-                data-aos-duration="1500"
-                class="col-md-12 col-lg-8 hide-mobile"
-              >
-                <div class="overlay-p"></div>
-                <img class="hero" src="@/assets/porto.png" />
-              </div>
-              <div class="col-md-12 col-lg-4 desc-porto">
-                <p data-aos="fade-left" class="featured">Featured Project</p>
-                <h3 data-aos="fade-left" class="name-porto">
-                  My Skillset Vue App
-                </h3>
-                <div data-aos="fade-left" class="block-card">
-                  <p>
-                    This is my first project built with Vue Js. In this case i'm
-                    presents my own skillset and in additional this project can
-                    add & delete the skills like todo list app. and also
-                    calculate number of skills.
-                  </p>
-                </div>
-                <ul data-aos="fade-left" class="stack">
-                  <li>Vue JS</li>
-                  <li>Vuex</li>
-                  <li>Animate CSS</li>
-                </ul>
-                <ul data-aos="fade-left" class="item-porto">
-                  <li>
-                    <a :href="demo.skillset">
-                      <font-awesome-icon
-                        :icon="['fas', 'external-link-alt']"
-                        class="porto-icon"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a :href="linkTo.mySkillset">
-                      <font-awesome-icon
-                        :icon="['fab', 'github']"
-                        class="porto-icon"
-                      />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!-- Stock Trader App -->
     </div>
   </div>
 </template>
@@ -172,14 +182,15 @@ export default {
   data() {
     return {
       linkTo: {
-        chatApp: "https://github.com/fjrpambudhi74/vue_chat_app",
-        stockTrader: "https://github.com/fjrpambudhi74/vue_stock_trader",
-        mySkillset: "https://github.com/fjrpambudhi74/vue-skillset",
+        repoChat: "https://github.com/fjrpambudhi74/vue_chat_app",
+        repoStock: "https://github.com/fjrpambudhi74/vue_stock_trader",
+        repoSkillset: "https://github.com/fjrpambudhi74/vue-skillset",
+        repoCovid: "https://github.com/fjrpambudhi74/vue-corona-info",
       },
       demo: {
-        chat: "https://vue-chat-app-8e549.firebaseapp.com/",
-        stock: "https://vue-stock-app.herokuapp.com/",
-        skillset: "https://fjrpambudhi-skillset.netlify.app/",
+        chatApp: "https://vue-chat-app-8e549.firebaseapp.com/",
+        stockApp: "https://vue-stock-app.herokuapp.com/",
+        coronaApp: "https://lookit-covid19.now.sh/",
       },
     };
   },
