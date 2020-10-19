@@ -1,9 +1,12 @@
-<!-- <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/fjrpambudhi74/portofolio_v2/master/src/assets/github_2.png" width="120" />
 </div>
 
+<h1 align="center">
+<a style="color:black; text-decoration: underline">fjrpambudhi.now.sh</a>
+</h1>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png) -->
+![demo](https://raw.githubusercontent.com/fjrpambudhi74/portofolio_v2/master/src/assets/My-Portofolio-V2.png)
 
 # :fire: Portfolio V2
 

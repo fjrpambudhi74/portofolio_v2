@@ -83,7 +83,7 @@
                 </h3>
                 <div data-aos="fade-left" class="block-card">
                   <p>
-                    Realtime chat app project using Firebase Firestore with
+                    Real-time Chat App project using Firebase Firestore with
                     nicer look. This personal project inspired by Whatsapp Web
                     Chat however not powerful and nicely as Whatsapp.
                   </p>
