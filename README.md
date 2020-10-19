@@ -1,10 +1,25 @@
-![Vue.js Logo](https://github.com/vercel/vercel/blob/master/packages/frameworks/logos/vue.svg)
+<!-- <div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+</div>
 
-# Vue.js Example
 
-This directory is a brief example of a [Vue.js](https://vuejs.org/) app that can be deployed with Vercel and zero configuration.
+![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png) -->
 
-## Deploy Your Own
+# :fire: Portfolio V2
+
+> Hello! Thanks for checking out the repo for my latest portfolio website. This website isn't just my new portfolio, but also a personal project in and of itself.
+
+## :mag: Overview
+My personal portfolio project version 2. This project built with VueJS to shows my project portfolio that I created. And also shows a little information about me and the skills I have.
+
+## :rocket: Built with
+* Vue JS
+* Bootstrap
+* Font Awesome
+* Animate CSS
+* Animate On Scroll (AOS)
+
+## :hammer_and_wrench: Deploy Your Own
 
 Deploy your own Vue.js project with Vercel.
 
@@ -27,3 +42,8 @@ You can deploy your new Vue.js project with a single command from your terminal 
 ```shell
 $ vercel
 ```
+
+---
+
+## :gift: Give Me Feedback
+If you found this project useful, please consider giving it a :star:. If you have any question or feedback, open an issue and i will get to you :blush:
