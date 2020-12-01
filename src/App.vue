@@ -17,7 +17,7 @@ export default {
   },
   watch: {
     $route: {
-      handler: (to, from) => {
+      handler: (to) => {
         document.title = to.meta.title;
       },
       immediate: true,
@@ -37,8 +37,8 @@ body {
   margin: 0;
   width: 100%;
   /* height: 500vh; */
-  background: #05081f;
-  color: #8892b0;
+  background: #05081f !important;
+  color: #8892b0 !important;
   font-family: "Roboto", sans-serif;
 }
 </style>
